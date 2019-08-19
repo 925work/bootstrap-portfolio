@@ -33,13 +33,25 @@
         </Header>
 
         <div class="container bg-light">
-            <div class="col-md-12">
+            <div class="col-md-12 mt-2">
                 <h1>Contact me</h1>
             </div>
             <div class="rows">
-                <div class="col-md-12">
-                    
-                </div>
+                <form>
+                    <div class="form-group mt-3">
+                      <label for="exampleInputEmail1">Name</label>
+                      <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="First name last name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Email Address</label>
+                      <input type="email" class="form-control" id="exampleInputemail1" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="12" placeholder="Write something..."></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
             </div>
         </div>
         <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom">
